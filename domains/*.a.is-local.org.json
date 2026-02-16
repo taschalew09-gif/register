@@ -1,17 +1,12 @@
 {
-    "description": "Subdomain for many applications...",
+    "description": "Main domain for waltasoln project hosted on Netlify",
     "domain": "is-local.org",
-    "subdomain": "a", 
+    "subdomain": "a",
     "owner": {
         "email": "alexdgeorge9@gmail.com"
     },
     "record": {
-        "A": [
-            "147.224.174.13"
-        ],
-        "TXT": [
-            "PASTE-YOUR-NETLIFY-VALUE-HERE"
-        ]
+        "CNAME": "waltasoln.netlify.app"
     },
     "proxied": false
 }
